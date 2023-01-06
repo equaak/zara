@@ -12,7 +12,7 @@ import Whatsapp from './whatsapp_sign.png'
 import Telegram from './telegram_sign.png'
 import Butterfly from './butterfly.png'
 import Song from './Song.mp3'
-import { useEffect, useState } from 'react'
+import { useEffect } from 'react'
 import { Howl } from 'howler'
 
 const Main = () => {
@@ -51,7 +51,7 @@ const Main = () => {
       <div className='main-content'>
           <div className='first-block'>
             <div className='butterfly-block'>
-              <img className='butterfly-img' src={Butterfly}>
+              <img className='butterfly-img' src={Butterfly} alt=''>
               </img>
             </div>
             <div className='first-main'>
@@ -61,19 +61,19 @@ const Main = () => {
             </div>
             <div className='advatages-block'>
               <div className='advantages-block-first'>
-                <img src={AdFirst} className='advantage-img'/>
+                <img src={AdFirst} className='advantage-img' alt=''/>
                 <p className='advatages-text'>
                   Сделала бренды доступными
                 </p>
               </div>
               <div className='advantages-block-second'>
-                <img src={AdSecond} className='advantage-img'/>
+                <img src={AdSecond} className='advantage-img' alt=''/>
                 <p className='advatages-text'>
                   Создала сеть партнеров SWP: США, Казахстан, Россия, Кыргызстан, Турция, Узбекистан
                 </p>
               </div>
               <div className='advantages-block-third'>
-                <img src={AdThird} className='advantage-img'/>
+                <img src={AdThird} className='advantage-img' alt=''/>
                 <p className='advatages-text'>
                   Обучила профессии 1000 учеников
                 </p>
@@ -87,7 +87,7 @@ const Main = () => {
               </button>
             </a>
             <div className='ilogo-block'>
-              <img src={Logo}/>
+              <img src={Logo} alt=''/>
             </div>
           </div>
           <div className='recommendation-block'>
@@ -103,7 +103,7 @@ const Main = () => {
               <div className='selection-container'>
                 <div className='selection-con'>
                   <div className='img-border'>
-                    <img src={SelFirst} className='selection-img'/>
+                    <img src={SelFirst} className='selection-img' alt=''/>
                   </div>
                 </div>
                 <div className='selection'>
@@ -115,7 +115,7 @@ const Main = () => {
               <div className='selection-container'>
                 <div className='selection-con'>
                   <div className='img-border'>
-                    <img src={SelSecond} className='selection-img'/>
+                    <img src={SelSecond} className='selection-img' alt=''/>
                   </div>
                 </div>
                 <div className='selection'>
@@ -127,7 +127,7 @@ const Main = () => {
               <div className='selection-container'>
                 <div className='selection-con'>
                   <div className='img-border'>
-                    <img src={SelThird} className='selection-img'/>
+                    <img src={SelThird} className='selection-img' alt=''/>
                   </div>
                 </div>
                 <div className='selection'>
@@ -169,7 +169,7 @@ const Main = () => {
             <p className='partners-title'>
               МОИ ПАРТНЕРЫ
             </p>
-            <img src={Logo} className='partners-logo' />
+            <img src={Logo} className='partners-logo' alt=''/>
 
             <div className='partners-list'>
               <div className='partners-row'>
@@ -177,7 +177,7 @@ const Main = () => {
                   <div className='partner-container'>
                     <div className='partner-con'>
                       <div className='partner-border'>
-                          <img src={Instagram} className='partner-img'></img>
+                          <img src={Instagram} className='partner-img' alt=''></img>
                       </div>
                     </div>
                     <div className='partner'>
@@ -189,7 +189,7 @@ const Main = () => {
                   <div className='partner-container'>
                     <div className='partner-con'>
                       <div className='partner-border'>
-                          <img src={Instagram} className='partner-img'></img>
+                          <img src={Instagram} className='partner-img' alt=''></img>
                       </div>
                     </div>
                     <div className='partner fromtop'>
@@ -201,7 +201,7 @@ const Main = () => {
                   <div className='partner-container'>
                     <div className='partner-con'>
                       <div className='partner-border'>
-                          <img src={Instagram} className='partner-img'></img>
+                          <img src={Instagram} className='partner-img' alt=''></img>
                       </div>
                     </div>
                     <div className='partner'>
@@ -215,7 +215,7 @@ const Main = () => {
                   <div className='partner-container'>
                     <div className='partner-con'>
                       <div className='partner-border'>
-                          <img src={Instagram} className='partner-img'></img>
+                          <img src={Instagram} className='partner-img' alt=''></img>
                       </div>
                     </div>
                     <div className='partner'>
@@ -227,7 +227,7 @@ const Main = () => {
                   <div className='partner-container'>
                     <div className='partner-con'>
                       <div className='partner-border'>
-                          <img src={Instagram} className='partner-img'></img>
+                          <img src={Instagram} className='partner-img' alt=''></img>
                       </div>
                     </div>
                     <div className='partner fromtop'>
@@ -241,7 +241,7 @@ const Main = () => {
                   <div className='partner-container'>
                     <div className='partner-con'>
                       <div className='partner-border'>
-                          <img src={Instagram} className='partner-img'></img>
+                          <img src={Instagram} className='partner-img' alt=''></img>
                       </div>
                     </div>
                     <div className='partner'>
@@ -253,7 +253,7 @@ const Main = () => {
                   <div className='partner-container'>
                     <div className='partner-con'>
                       <div className='partner-border'>
-                          <img src={Instagram} className='partner-img'></img>
+                          <img src={Instagram} className='partner-img' alt=''></img>
                       </div>
                     </div>
                     <div className='partner frombot'>
@@ -265,7 +265,7 @@ const Main = () => {
                   <div className='partner-container'>
                     <div className='partner-con'>
                       <div className='partner-border'>
-                          <img src={Instagram} className='partner-img'></img>
+                          <img src={Instagram} className='partner-img' alt=''></img>
                       </div>
                     </div>
                     <div className='partner'>
@@ -280,7 +280,7 @@ const Main = () => {
                   <div className='partner-container'>
                     <div className='partner-con'>
                       <div className='partner-border'>
-                          <img src={Instagram} className='partner-img'></img>
+                          <img src={Instagram} className='partner-img' alt=''></img>
                       </div>
                     </div>
                     <div className='partner fromtop'>
@@ -292,7 +292,7 @@ const Main = () => {
                   <div className='partner-container'>
                     <div className='partner-con'>
                       <div className='partner-border'>
-                          <img src={Instagram} className='partner-img'></img>
+                          <img src={Instagram} className='partner-img' alt=''></img>
                       </div>
                     </div>
                     <div className='partner'>
@@ -304,7 +304,7 @@ const Main = () => {
                   <div className='partner-container'>
                     <div className='partner-con'>
                       <div className='partner-border'>
-                          <img src={Instagram} className='partner-img'></img>
+                          <img src={Instagram} className='partner-img' alt=''></img>
                       </div>
                     </div>
                     <div className='partner frombot'>
@@ -359,7 +359,7 @@ const Main = () => {
               <a href='https://t.me/+dJakFgIRy9BkZjMx' target='_blank' rel="noreferrer">
                 <div className='contact-card'>
                   <div className='contact-border'>
-                    <img src={Telegram} className='contact-img'>
+                    <img src={Telegram} className='contact-img' alt=''>
                     </img>
                   </div>
                 </div>
@@ -367,7 +367,7 @@ const Main = () => {
               <a href='https://api.whatsapp.com/send?phone=19415863261' target='_blank' rel="noreferrer">
                 <div className='contact-card fill'>
                   <div className='contact-border filled'>
-                    <img src={Whatsapp} className='contact-img'>
+                    <img src={Whatsapp} className='contact-img' alt=''>
                     </img>
                   </div>
                 </div>
