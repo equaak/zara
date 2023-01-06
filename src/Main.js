@@ -314,11 +314,11 @@ const Main = () => {
                 </a>
               </div>
               <div className='partners-row'>
-                <a href='https://instagram.com/shoppingwithproffi_astana/' target='_blank'>
+                <a href='https://instagram.com/shoppingwithproffi_astana/' target='_blank' rel="noreferrer">
                   <div className='partner-container'>
                     <div className='partner-con'>
                       <div className='partner-border'>
-                          <img src={Instagram} className='partner-img'></img>
+                          <img src={Instagram} className='partner-img' alt=''></img>
                       </div>
                     </div>
                     <div className='partner fromtop'>
