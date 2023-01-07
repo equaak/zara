@@ -420,4 +420,20 @@
     position: relative;
     top: 20vh;
   }
+
+
+  .video-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vh;
+  }
+
+  .partner-video{
+    margin: 0 auto;
+  }
+
+  .partner-video{
+    max-width: 80vw;
+  }
 }

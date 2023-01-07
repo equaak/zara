@@ -12,18 +12,40 @@ import Whatsapp from './whatsapp_sign.png'
 import Telegram from './telegram_sign.png'
 import Butterfly from './butterfly.png'
 import Song from './Song.mp3'
-import { useEffect } from 'react'
+import { useEffect, useState } from 'react'
 import { Howl } from 'howler'
-
+import Video from './video.mp4'
+import Video2 from './video2.MP4'
 const Main = () => {
+
+  const [playing, setPlaying] = useState(true)
+  const [sound, setSound] = useState(null)
+  const [videoplay, setPlay] = useState(false)
   useEffect(() => {
-    console.log('playing')
-    const sound = new Howl({
-      src: Song
-    })
-    sound.volume(0.2)
-    sound.play()
-  }, [])
+    if(sound == null){
+      const esound = new Howl({
+        src: Song
+      })
+      setSound(esound)
+    }
+    else{
+      sound.volume(0.1)
+      sound.play()
+      setPlaying(true)
+    }
+  }, [sound])
+
+
+  const handlePlay = (e) => {
+    sound.stop()
+    if(!videoplay){
+      setPlay(true)
+    }
+    else{
+      Video.stop()
+    }
+  }
+
 
   return(
     <main>
@@ -343,6 +365,14 @@ const Main = () => {
             <p className='review-title'>
               ОТЗЫВЫ УЧЕНИКОВ
             </p>
+            <div className='video-container'>
+              <video controls className='partner-video' src={Video} onPlay={(e) => {handlePlay(e)}}>
+              </video>
+            </div>
+            <div className='video-container'>
+              <video controls className='partner-video' src={Video2} onPlay={(e) => {handlePlay(e)}}>
+              </video>
+            </div>
           </div>
           <div className='about-block'>
             <p className='about-title'>

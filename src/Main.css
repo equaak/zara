@@ -313,8 +313,9 @@ a{
 
 
   .partners-review{
-    height: 100vh;
+    min-height: 100vh;
     background-color: #ACD1FA;
+    padding-bottom: 50px;
   }
 
 
@@ -420,4 +421,14 @@ a{
     left: 5vw;
   }
 
+  .video-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vh;
+  }
+
+  .partner-video{
+    margin: 0 auto;
+  }
 }
