@@ -34,7 +34,7 @@ const Main = () => {
       setPlaying(true)
     }
     console.log(playing)
-  }, [sound])
+  }, [sound, playing])
 
 
   const handlePlay = (e) => {
