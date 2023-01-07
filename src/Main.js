@@ -33,6 +33,7 @@ const Main = () => {
       sound.play()
       setPlaying(true)
     }
+    console.log(playing)
   }, [sound])
 
 
