@@ -327,7 +327,8 @@ a{
   }
 
   .course-block{
-    height: 100vh;
+    min-height: 100vh;
+    padding-bottom: 5vh;
   }
 
 
@@ -429,6 +430,7 @@ a{
   }
 
   .partner-video{
+    width: 60vw;
     margin: 0 auto;
   }
 }

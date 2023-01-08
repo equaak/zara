@@ -16,6 +16,7 @@ import { useEffect, useState } from 'react'
 import { Howl } from 'howler'
 import Video from './video.mp4'
 import Video2 from './video2.MP4'
+import Video3 from './video3.mp4'
 const Main = () => {
 
   const [playing, setPlaying] = useState(true)
@@ -361,6 +362,11 @@ const Main = () => {
             <p className='course-title'>
               КУРС Я - BUYER
             </p>
+
+            <div className='video-container'>
+              <video controls className='partner-video' src={Video3} onPlay={(e) => {handlePlay(e)}}>
+              </video>
+            </div>
           </div>
           <div className='partners-review'>
             <p className='review-title'>
