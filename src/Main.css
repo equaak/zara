@@ -27,6 +27,7 @@ a{
   .menu-part{
     border: solid 1px #91BFF4;
     border-top-width: 0;
+    min-height: 8vh;
   }
 
   .first{
@@ -43,6 +44,7 @@ a{
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     font-size: 20px;
+    text-align: center;
   }
 
   .first-block{
@@ -432,5 +434,50 @@ a{
   .partner-video{
     width: 60vw;
     margin: 0 auto;
+  }
+
+
+  .about-row{
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+
+  .about-con{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 5vh;
+  }
+
+  .about-border{
+    background-color: #ACD1FA;
+    width: 5vw;
+    height: 5vw;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .about-img{
+    width: 3vw;
+  }
+
+  .about-label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    padding: 40px 10px;
+    width: 20vw;
+    height: 10vh;
+    cursor: pointer;
+    background-color: #FFFFFF;
   }
 }

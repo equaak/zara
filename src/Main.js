@@ -17,6 +17,7 @@ import { Howl } from 'howler'
 import Video from './video.mp4'
 import Video2 from './video2.MP4'
 import Video3 from './video3.mp4'
+import Heart from './heart.png'
 const Main = () => {
 
   const [playing, setPlaying] = useState(true)
@@ -55,7 +56,7 @@ const Main = () => {
         <div className='menu-part first'>
           <p className='menu-slogan'>
             лидер и лучший
-            эксперт-байер  ABIL’ ZARI
+            эксперт-байер <br></br> ABIL’ ZARI
           </p>
         </div>
         <div className='menu-part'>
@@ -357,6 +358,14 @@ const Main = () => {
             <p className='review-title'>
               ОТЗЫВЫ ПАРТНЕРОВ
             </p>
+            <div className='video-container'>
+              <video controls className='partner-video' src={Video} onPlay={(e) => {handlePlay(e)}}>
+              </video>
+            </div>
+            <div className='video-container'>
+              <video controls className='partner-video' src={Video2} onPlay={(e) => {handlePlay(e)}}>
+              </video>
+            </div>
           </div>
           <div className='course-block'>
             <p className='course-title'>
@@ -372,20 +381,55 @@ const Main = () => {
             <p className='review-title'>
               ОТЗЫВЫ УЧЕНИКОВ
             </p>
-            <div className='video-container'>
-              <video controls className='partner-video' src={Video} onPlay={(e) => {handlePlay(e)}}>
-              </video>
-            </div>
-            <div className='video-container'>
-              <video controls className='partner-video' src={Video2} onPlay={(e) => {handlePlay(e)}}>
-              </video>
-            </div>
           </div>
           <div className='about-block'>
             <p className='about-title'>
               FASHION ИЗДАНИЯ
               ОБО МНЕ
             </p>
+
+            <div className='about-container'>
+              <div className='about-row'>
+                <a href='https://new-magazine.ru/2022/11/22/supervumen-zarina-abilova-znaet-kak-stat-uspeshnym-bajerom/' target='_blank' rel="noreferrer">
+                    <div className='about-info'>
+                      <div className='about-con'>
+                        <div className='about-border'>
+                            <img src={Heart} className='about-img' alt=''></img>
+                        </div>
+                      </div>
+                      <div className='about-label'>
+                        Издание “New Magazine”
+                      </div>
+                    </div>
+                  </a>
+              </div>
+              <div className='about-row'>
+                <a href='http://www.tele.ru/style/look/zara-abilova-nikogda-ne-otchaivaetes-ljubov-i-sudba-mogut-najti-vas-v-samyj-neozhidannyj-moment/?fbclid=PAAaYPOZ3Bn6NAJ5vhR3AuraqFMk8TtPs4u1ZR7vWuCdjIVAJtcOkV9abU8S0' target='_blank' rel="noreferrer">
+                    <div className='about-info'>
+                      <div className='about-con'>
+                        <div className='about-border'>
+                            <img src={Heart} className='about-img' alt=''></img>
+                        </div>
+                      </div>
+                      <div className='about-label'>
+                        Издание “Tele.ru”
+                      </div>
+                    </div>
+                  </a>
+                  <a href='https://www.intermoda.ru/cit/fashion-bayer-zarina-abilova-stil-eto-otrazhenie-lichnosti-i-individual-nosti.html?fbclid=PAAaa9uoG8iZ_6QV5WeJWkPhP1WajDoAH1PAZnKm6PL2C6d8pwl9nqmP07wlg' target='_blank' rel="noreferrer">
+                    <div className='about-info'>
+                      <div className='about-con'>
+                        <div className='about-border'>
+                            <img src={Heart} className='about-img' alt=''></img>
+                        </div>
+                      </div>
+                      <div className='about-label'>
+                        Издание “Intermoda”
+                      </div>
+                    </div>
+                  </a>
+              </div>
+            </div>
           </div>
           <div className='contacts-block'>
             <p className='contacts-title'>
