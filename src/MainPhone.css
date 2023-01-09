@@ -314,7 +314,7 @@
 
 
   .partners-review{
-    height: 100vh;
+    min-height: 100vh;
     background-color: #ACD1FA;
   }
 
@@ -327,7 +327,7 @@
   }
 
   .course-block{
-    height: 100vh;
+    min-height: 100vh;
   }
 
 
