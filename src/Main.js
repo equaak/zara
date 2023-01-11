@@ -359,11 +359,11 @@ const Main = () => {
               ОТЗЫВЫ ПАРТНЕРОВ
             </p>
             <div className='video-container'>
-              <video preload="metadata" controls className='partner-video' src={Video} onPlay={(e) => {handlePlay(e)}}>
+              <video preload="metadata" controls className='partner-video' src={Video} onPlay={(e) => {handlePlay(e)}} type='video/mp4'>
               </video>
             </div>
             <div className='video-container'>
-              <video preload="metadata" controls className='partner-video' src={Video2} onPlay={(e) => {handlePlay(e)}}>
+              <video preload="metadata" controls className='partner-video' src={Video2} onPlay={(e) => {handlePlay(e)}} type='video/mp4'>
               </video>
             </div>
           </div>
@@ -373,7 +373,7 @@ const Main = () => {
             </p>
 
             <div className='video-container'>
-              <video preload="metadata" controls className='partner-video' src={Video3} onPlay={(e) => {handlePlay(e)}}>
+              <video preload="metadata" controls className='partner-video' src={Video3} onPlay={(e) => {handlePlay(e)}} type='video/mp4'>
               </video>
             </div>
           </div>
