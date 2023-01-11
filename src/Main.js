@@ -61,13 +61,13 @@ const Main = () => {
         </div>
         <div className='menu-part'>
           <p className='menu-slogan'>
-            лидер и лучший
-            эксперт-байер <br></br> ABIL’ ZARI
+            лидер <br></br> эксперт-байер <br></br> ABIL’ ZARI
           </p>
         </div>
         <div className='menu-part last'>
           <p className='menu-slogan'>
             13 партнеров
+            <br></br>
             1000 выпускников
           </p>
         </div>
