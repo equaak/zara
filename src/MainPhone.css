@@ -314,8 +314,9 @@
 
 
   .partners-review{
-    min-height: 100vh;
+    min-height: 60vh;
     background-color: #ACD1FA;
+    padding-bottom: 5vh;
   }
 
 
@@ -327,7 +328,8 @@
   }
 
   .course-block{
-    min-height: 100vh;
+    min-height: 60vh;
+    padding-bottom: 5vh;
   }
 
 
@@ -354,7 +356,7 @@
 
 
   .contacts-block{
-    height: 80vh;
+    min-height: 40vh;
   }
 
 

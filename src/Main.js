@@ -55,14 +55,14 @@ const Main = () => {
       <header>
         <div className='menu-part first'>
           <p className='menu-slogan'>
-            лидер и лучший
-            эксперт-байер <br></br> ABIL’ ZARI
+            автор курса
+            “Я-BUYER”
           </p>
         </div>
         <div className='menu-part'>
           <p className='menu-slogan'>
-            автор курса
-            “Я-BUYER”
+            лидер и лучший
+            эксперт-байер <br></br> ABIL’ ZARI
           </p>
         </div>
         <div className='menu-part last'>
@@ -359,11 +359,11 @@ const Main = () => {
               ОТЗЫВЫ ПАРТНЕРОВ
             </p>
             <div className='video-container'>
-              <video controls className='partner-video' src={Video} onPlay={(e) => {handlePlay(e)}}>
+              <video preload="metadata" controls className='partner-video' src={Video} onPlay={(e) => {handlePlay(e)}}>
               </video>
             </div>
             <div className='video-container'>
-              <video controls className='partner-video' src={Video2} onPlay={(e) => {handlePlay(e)}}>
+              <video preload="metadata" controls className='partner-video' src={Video2} onPlay={(e) => {handlePlay(e)}}>
               </video>
             </div>
           </div>
@@ -373,7 +373,7 @@ const Main = () => {
             </p>
 
             <div className='video-container'>
-              <video controls className='partner-video' src={Video3} onPlay={(e) => {handlePlay(e)}}>
+              <video preload="metadata" controls className='partner-video' src={Video3} onPlay={(e) => {handlePlay(e)}}>
               </video>
             </div>
           </div>
