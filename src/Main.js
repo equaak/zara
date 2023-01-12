@@ -56,6 +56,7 @@ const Main = () => {
         <div className='menu-part first'>
           <p className='menu-slogan'>
             автор курса
+            <br></br>
             “Я-BUYER”
           </p>
         </div>

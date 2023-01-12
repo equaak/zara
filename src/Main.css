@@ -27,7 +27,7 @@ a{
   .menu-part{
     border: solid 1px #91BFF4;
     border-top-width: 0;
-    min-height: 8vh;
+    min-height: 10vh;
   }
 
   .first{
