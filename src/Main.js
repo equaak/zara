@@ -17,6 +17,7 @@ import { Howl } from 'howler'
 import Video from './video.mp4'
 import Video2 from './video2.MP4'
 import Video3 from './video3.mp4'
+import Video4 from './course-video.mp4'
 import Heart from './heart.png'
 const Main = () => {
 
@@ -375,6 +376,10 @@ const Main = () => {
 
             <div className='video-container'>
               <video preload="metadata" controls className='partner-video' src={Video3} onPlay={(e) => {handlePlay(e)}} type='video/mp4'>
+              </video>
+            </div>
+            <div className='video-container'>
+              <video preload="metadata" controls className='partner-video' src={Video4} onPlay={(e) => {handlePlay(e)}} type='video/mp4'>
               </video>
             </div>
           </div>
