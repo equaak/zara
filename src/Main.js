@@ -56,7 +56,9 @@ const Main = () => {
       <header>
         <div className='menu-part first'>
           <p className='menu-slogan'>
-            автор курса
+            автор
+            <br></br>
+            курса
             <br></br>
             “Я-BUYER”
           </p>
@@ -174,7 +176,7 @@ const Main = () => {
             <div className='knowledge-content evenly'>
               <div className='knowledge-container'>
                 <p>
-                  BUYER и автор самого результативного курса по байерству
+                  Знаю как покупать и продавать  эффективно бренды с оборотами в миллионы $
                 </p>
               </div>
               <div className='knowledge-container'>
@@ -186,7 +188,7 @@ const Main = () => {
             <div className='knowledge-content around'>
               <div className='knowledge-container'>
                 <p>
-                  Знаю как покупать и продавать  эффективно бренды с оборотами в миллионы $
+                  BUYER и автор самого результативного курса по байерству
                 </p>
               </div>
               <div className='knowledge-container'>
@@ -373,6 +375,9 @@ const Main = () => {
               <video preload="metadata" controls className='partner-video' src={Video2} onPlay={(e) => {handlePlay(e)}} type='video/mp4'>
               </video>
             </div>
+          </div>
+          <div className='map-block'>
+
           </div>
           <div className='course-block'>
             <p className='course-title'>
