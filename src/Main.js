@@ -174,15 +174,12 @@ const Main = () => {
             <div className='knowledge-content'>
               <div className='knowledge-container'>
                 <p>
-                  BUYER и автор самого результативного курса по байерству  в мире онлайн-обучения
+                  BUYER и автор самого результативного курса по байерству
                 </p>
               </div>
               <div className='knowledge-container'>
                 <p>
-                    5 лет в сфере байерства
-                    Прошла путь
-                    от новичка до  гуру
-                    в LUX FASHION BUYING
+                10 лет в бизнесе, 5 лет в профессии buyer. Прошла путь от новичка до гуру в PREMIUM LUX BUYING
                 </p>
               </div>
               <div className='knowledge-container'>
@@ -259,6 +256,18 @@ const Main = () => {
                     </div>
                     <div className='partner fromtop'>
                       @shoppingprofi_kz
+                    </div>
+                  </div>
+                </a>
+                <a href='https://www.instagram.com/iyba_yachts/' target='_blank' rel="noreferrer">
+                  <div className='partner-container'>
+                    <div className='partner-con'>
+                      <div className='partner-border'>
+                          <img src={Instagram} className='partner-img' alt=''></img>
+                      </div>
+                    </div>
+                    <div className='partner fromtop'>
+                      @iyba_yachts
                     </div>
                   </div>
                 </a>
@@ -373,11 +382,6 @@ const Main = () => {
             <p className='course-title'>
               КУРС Я - BUYER
             </p>
-
-            <div className='video-container'>
-              <video preload="metadata" controls className='partner-video' src={Video3} onPlay={(e) => {handlePlay(e)}} type='video/mp4'>
-              </video>
-            </div>
             <div className='video-container'>
               <video preload="metadata" controls className='partner-video' src={Video4} onPlay={(e) => {handlePlay(e)}} type='video/mp4'>
               </video>
@@ -387,6 +391,10 @@ const Main = () => {
             <p className='review-title'>
               ОТЗЫВЫ УЧЕНИКОВ
             </p>
+            <div className='video-container'>
+              <video preload="metadata" controls className='partner-video' src={Video3} onPlay={(e) => {handlePlay(e)}} type='video/mp4'>
+              </video>
+            </div>
           </div>
           <div className='about-block'>
             <p className='about-title'>
