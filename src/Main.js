@@ -19,6 +19,7 @@ import Video2 from './video2.MP4'
 import Video3 from './video3.mp4'
 import Video4 from './course-video.mp4'
 import Heart from './heart.png'
+import map from './map.png'
 const Main = () => {
 
   const [playing, setPlaying] = useState(true)
@@ -377,7 +378,7 @@ const Main = () => {
             </div>
           </div>
           <div className='map-block'>
-
+            <img src={map} alt=''/>
           </div>
           <div className='course-block'>
             <p className='course-title'>

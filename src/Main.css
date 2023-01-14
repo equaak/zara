@@ -492,4 +492,15 @@ a{
     display: flex;
     justify-content: space-evenly;
   }
+
+  .map-block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 50px;
+  }
+
+  .map-block img{
+    width: 80vw;
+  }
 }

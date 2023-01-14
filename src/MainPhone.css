@@ -500,4 +500,14 @@
     justify-content: space-evenly;
     padding: 0 10px;
   }
+
+  .map-block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .map-block img{
+    width: 80vw;
+  }
 }
