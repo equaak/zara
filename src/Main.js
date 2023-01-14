@@ -364,6 +364,9 @@ const Main = () => {
               </div>
             </div>
           </div>
+          <div className='map-block'>
+            <img src={map} alt=''/>
+          </div>
           <div className='partners-review'>
             <p className='review-title'>
               ОТЗЫВЫ ПАРТНЕРОВ
@@ -377,9 +380,7 @@ const Main = () => {
               </video>
             </div>
           </div>
-          <div className='map-block'>
-            <img src={map} alt=''/>
-          </div>
+
           <div className='course-block'>
             <p className='course-title'>
               КУРС Я - BUYER
