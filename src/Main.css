@@ -245,7 +245,7 @@ a{
     padding: 20px 50px;
     font-size: 15px;
     font-weight: 600;
-    width: 18vw;
+    width: 20vw;
   }
 
 
@@ -479,5 +479,17 @@ a{
     height: 10vh;
     cursor: pointer;
     background-color: #FFFFFF;
+  }
+
+
+  .around{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+  }
+
+  .evenly{
+    display: flex;
+    justify-content: space-evenly;
   }
 }

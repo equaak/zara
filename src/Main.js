@@ -171,7 +171,7 @@ const Main = () => {
               <br></br>
               <strong>ДОСТУПНЫМИ</strong>
             </p>
-            <div className='knowledge-content'>
+            <div className='knowledge-content evenly'>
               <div className='knowledge-container'>
                 <p>
                   BUYER и автор самого результативного курса по байерству
@@ -182,9 +182,17 @@ const Main = () => {
                 10 лет в бизнесе, 5 лет в профессии buyer. Прошла путь от новичка до гуру в PREMIUM LUX BUYING
                 </p>
               </div>
+            </div>
+            <div className='knowledge-content around'>
               <div className='knowledge-container'>
                 <p>
                   Знаю как покупать и продавать  эффективно бренды с оборотами в миллионы $
+                </p>
+              </div>
+              <div className='knowledge-container'>
+                <p>
+                Лицензированный яхт брокер от
+                International yacht brokers association
                 </p>
               </div>
             </div>
@@ -256,18 +264,6 @@ const Main = () => {
                     </div>
                     <div className='partner fromtop'>
                       @shoppingprofi_kz
-                    </div>
-                  </div>
-                </a>
-                <a href='https://www.instagram.com/iyba_yachts/' target='_blank' rel="noreferrer">
-                  <div className='partner-container'>
-                    <div className='partner-con'>
-                      <div className='partner-border'>
-                          <img src={Instagram} className='partner-img' alt=''></img>
-                      </div>
-                    </div>
-                    <div className='partner fromtop'>
-                      @iyba_yachts
                     </div>
                   </div>
                 </a>
@@ -412,7 +408,7 @@ const Main = () => {
                         </div>
                       </div>
                       <div className='about-label'>
-                        Издание “New Magazine”
+                        Издание <br></br> “New Magazine”
                       </div>
                     </div>
                   </a>

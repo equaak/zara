@@ -246,7 +246,7 @@
     padding: 10px 10px;
     font-size: 10px;
     font-weight: 600;
-    width: 20vw;
+    width: 25vw;
   }
 
 
@@ -487,5 +487,17 @@
     height: 10vh;
     cursor: pointer;
     background-color: #FFFFFF;
+  }
+
+  .around{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+  }
+
+  .evenly{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 10px;
   }
 }
