@@ -400,6 +400,7 @@ const Main = () => {
           <div className='about-block'>
             <p className='about-title'>
               FASHION ИЗДАНИЯ
+              <br></br>
               ОБО МНЕ
             </p>
 
