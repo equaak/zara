@@ -394,22 +394,22 @@ const Main = () => {
                 <div className='after-part'>
                   Самую полную систему бизнеса байера от А до Я и методику построения продаж на миллионы
                 </div>
+              </div>
+              <div className='after-row'>
                 <div className='after-part'>
                   Развёрнутую базу
                   прямых поставщиков,
                   ссылок и источников
                 </div>
-              </div>
-              <div className='after-row'>
                 <div className='after-part'>
                   Знания и навыки, которые начнёте применять уже во время курса
                 </div>
+              </div>
+              <div className='after-row'>
                 <div className='after-part'>
                   Большое community
                   единомышленников и сеть партнёров
                 </div>
-              </div>
-              <div className='after-row last-row'>
                 <div className='after-part'>
                   Возможности достойного заработка и выхода на новый уровень
                 </div>
