@@ -204,6 +204,197 @@ const Main = () => {
               </div>
             </div>
           </div>
+          <div className='course-info'>
+            <p className='review-title'>
+              ТАРИФЫ:
+            </p>
+
+            <div className='info-con'>
+              <div className='info-part'>
+                <div className='info-header'>
+                  Я-BUYER VIP
+                </div>
+                <div className='info-content'>
+                  999000 тг
+                  <br></br>
+                  <br></br>
+                  Полная программа
+                  <br></br>
+                  <br></br>
+                  Доступ к урокам 3 месяца
+                  <br></br>
+                  <br></br>
+                  Телеграм канал
+                  <br></br>
+                  <br></br>
+                  Доступ к закрытой группе с экспертом и кураторами
+                  <br></br>
+                  <br></br>
+                  Обратная связь по домашним заданиям
+                  <br></br>
+                  <br></br>
+                  Вебинар ответы на вопросы
+                  <br></br>
+                  <br></br>
+                  Индивидуальная практика с Зарой в течение месяца
+                  <br></br>
+                  <br></br>
+                  Индивидуальная онлайн консультация с Зарой
+                  <a href='https://api.whatsapp.com/send?phone=+77010130981'>
+                    <button className='buy-button'>
+                      ХОЧУ 😍
+                    </button>
+                  </a>
+                </div>
+              </div>
+              <div className='info-part'>
+                <div className='info-header'>
+                  Я-BUYER PREMIUM
+                </div>
+                <div className='info-content'>
+                  569000 тг
+                  <br></br>
+                  <br></br>
+                  Полная программа
+                  <br></br>
+                  <br></br>
+                  Доступ к урокам 2 месяца
+                  <br></br>
+                  <br></br>
+                  Телеграм канал
+                  <br></br>
+                  <br></br>
+                  Доступ к закрытой группе с экспертом и кураторами
+                  <br></br>
+                  <br></br>
+                  Обратная связь по домашним заданиям
+                  <br></br>
+                  <br></br>
+                  Вебинар ответы на вопросы
+                  <br></br>
+                  <br></br>
+                  <a href='https://api.whatsapp.com/send?phone=+77010130981'>
+                    <button className='buy-button'>
+                      ХОЧУ 😍
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className='modules-block'>
+            <p className='modules-title'>
+              КУРС Я - BUYER 2.0
+            </p>
+            <div className='modules-container'>
+              <div className='modules-part'>
+                1. Психология успешных продаж
+              </div>
+              <div className='modules-part'>
+                2. Бизнес процессы байера с 0
+              </div>
+              <div className='modules-part'>
+                3. США, Италия, Франция
+              </div>
+              <div className='modules-part'>
+                4. Программы отслеживания скидок
+              </div>
+              <div className='modules-part'>
+                5. Программа rewards и лоялити для покупателей
+              </div>
+              <div className='modules-part'>
+                6. База поставщиков и логистов
+              </div>
+              <div className='modules-part'>
+                7. Продажи на крупнейших маркетплейсах США. EBay, Amazon, Etsy и Poshmark, Mercary
+              </div>
+              <div className='modules-part'>
+                8. Блок со стилистом и производителем крупного концерна косметики Галина Тодд
+              </div>
+              <div className='modules-part'>
+                9. Блок с лучшим продавцом сакс США, секреты продаж и распродаж ( сезоны и бренды)
+              </div>
+            </div>
+          </div>
+          <div className='who-block'>
+            <p className='who-title'>
+              ДЛЯ КОГО ЭТО <br></br>ОБУЧЕНИЕ?
+            </p>
+
+            <div className='who-content'>
+              <div className='who-row'>
+                <div className='who-part'>
+                  <div className='who-header'>
+                    <img src={Like} alt=''/>
+                  </div>
+                  <div className='who-info'>
+                    желает повысить
+                    уровень нормы
+                    и жизни
+                  </div>
+                </div>
+                <div className='who-part'>
+                  <div className='who-header'>
+                    <img src={Plane} alt=''/>
+                  </div>
+                  <div className='who-info'>
+                    желает совмещать
+                    работу и путешествия
+                  </div>
+                </div>
+              </div>
+              <div className='who-row'>
+                <div className='who-part'>
+                  <div className='who-header'>
+                    <img src={Shop} alt=''/>
+                  </div>
+                  <div className='who-info'>
+                    хочет покупать себе и близким оригиналы брендов новых коллекций по самым вкусным ценам
+                  </div>
+                </div>
+                <div className='who-part'>
+                  <div className='who-header'>
+                    <img src={Smile} alt=''/>
+                  </div>
+                  <div className='who-info'>
+                    стремится расширить горизонты для себя, своей семьи и детей
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className='after-block'>
+            <p className='after-title'>
+              ПОСЛЕ КУРСА ВЫ ПОЛУЧИТЕ
+            </p>
+            <div className='after-content'>
+              <div className='after-row'>
+                <div className='after-part'>
+                  Самую полную систему бизнеса байера от А до Я и методику построения продаж на миллионы
+                </div>
+                <div className='after-part'>
+                  Развёрнутую базу
+                  прямых поставщиков,
+                  ссылок и источников
+                </div>
+              </div>
+              <div className='after-row'>
+                <div className='after-part'>
+                  Знания и навыки, которые начнёте применять уже во время курса
+                </div>
+                <div className='after-part'>
+                  Большое community
+                  единомышленников и сеть партнёров
+                </div>
+              </div>
+              <div className='after-row last-row'>
+                <div className='after-part'>
+                  Возможности достойного заработка и выхода на новый уровень
+                </div>
+              </div>
+            </div>
+          </div>
           <div className='partners-block'>
             <p className='partners-title'>
               МОИ ПАРТНЕРЫ
@@ -453,180 +644,7 @@ const Main = () => {
               </div>
             </div>
           </div>
-          <div className='modules-block'>
-            <p className='modules-title'>
-              МОДУЛИ КУРСА Я - BUYER 2.0
-            </p>
-            <div className='modules-container'>
-              <div className='modules-part'>
-                1. Психология успешных продаж
-              </div>
-              <div className='modules-part'>
-                2. Бизнес процессы байера с 0
-              </div>
-              <div className='modules-part'>
-                3. США, Италия, Франция
-              </div>
-              <div className='modules-part'>
-                4. Программы отслеживания скидок
-              </div>
-              <div className='modules-part'>
-                5. Программа rewards и лоялити для покупателей
-              </div>
-              <div className='modules-part'>
-                6. База поставщиков и логистов
-              </div>
-              <div className='modules-part'>
-                7. Продажи на крупнейших маркетплейсах США. EBay, Amazon, Etsy и Poshmark, Mercary
-              </div>
-              <div className='modules-part'>
-                8. Блок со стилистом и производителем крупного концерна косметики Галина Тодд
-              </div>
-              <div className='modules-part'>
-                9. Блок с лучшим продавцом сакс США, секреты продаж и распродаж ( сезоны и бренды)
-              </div>
-            </div>
-          </div>
 
-          <div className='course-info'>
-            <p className='review-title'>
-              ТАРИФЫ:
-            </p>
-
-            <div className='info-con'>
-              <div className='info-part'>
-                <div className='info-header'>
-                  Я-BUYER VIP
-                </div>
-                <div className='info-content'>
-                  999000 тг
-                  <br></br>
-                  Полная программа
-                  <br></br>
-                  Доступ к урокам 3 месяца
-                  <br></br>
-                  Телеграм канал
-                  <br></br>
-                  Доступ к закрытой группе с экспертом и кураторами
-                  <br></br>
-                  Обратная связь по домашним заданиям
-                  <br></br>
-                  Вебинар ответы на вопросы
-                  <br></br>
-                  Индивидуальная практика с Зарой в течение месяца
-                  <br></br>
-                  Индивидуальная онлайн консультация с Зарой
-                  <button className='buy-button'>
-                    ХОЧУ 😍
-                  </button>
-                </div>
-              </div>
-              <div className='info-part'>
-                <div className='info-header'>
-                  Я-BUYER PREMIUM
-                </div>
-                <div className='info-content'>
-                  569000 тг
-                  <br></br>
-                  Полная программа
-                  <br></br>
-                  Доступ к урокам 2 месяца
-                  <br></br>
-                  Телеграм канал
-                  <br></br>
-                  Доступ к закрытой группе с экспертом и кураторами
-                  <br></br>
-                  Обратная связь по домашним заданиям
-                  <br></br>
-                  Вебинар ответы на вопросы
-                  <br></br>
-                  <button className='buy-button'>
-                    ХОЧУ 😍
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className='who-block'>
-            <p className='who-title'>
-              ДЛЯ КОГО ЭТО <br></br>ОБУЧЕНИЕ?
-            </p>
-
-            <div className='who-content'>
-              <div className='who-row'>
-                <div className='who-part'>
-                  <div className='who-header'>
-                    <img src={Like} alt=''/>
-                  </div>
-                  <div className='who-info'>
-                    желает повысить
-                    уровень нормы
-                    и жизни
-                  </div>
-                </div>
-                <div className='who-part'>
-                  <div className='who-header'>
-                    <img src={Plane} alt=''/>
-                  </div>
-                  <div className='who-info'>
-                    желает совмещать
-                    работу и путешествия
-                  </div>
-                </div>
-              </div>
-              <div className='who-row'>
-                <div className='who-part'>
-                  <div className='who-header'>
-                    <img src={Shop} alt=''/>
-                  </div>
-                  <div className='who-info'>
-                    хочет покупать себе и близким оригиналы брендов новых коллекций по самым вкусным ценам
-                  </div>
-                </div>
-                <div className='who-part'>
-                  <div className='who-header'>
-                    <img src={Smile} alt=''/>
-                  </div>
-                  <div className='who-info'>
-                    стремится расширить горизонты для себя, своей семьи и детей
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className='after-block'>
-            <p className='after-title'>
-              ПОСЛЕ КУРСА ВЫ ПОЛУЧИТЕ
-            </p>
-            <div className='after-content'>
-              <div className='after-row'>
-                <div className='after-part'>
-                  Самую полную систему бизнеса байера от А до Я и методику построения продаж на миллионы
-                </div>
-                <div className='after-part'>
-                  Развёрнутую базу
-                  прямых поставщиков,
-                  ссылок и источников
-                </div>
-              </div>
-              <div className='after-row'>
-                <div className='after-part'>
-                  Знания и навыки, которые начнёте применять уже во время курса
-                </div>
-                <div className='after-part'>
-                  Большое community
-                  единомышленников и сеть партнёров
-                </div>
-              </div>
-              <div className='after-row last-row'>
-                <div className='after-part'>
-                  Возможности достойного заработка и выхода на новый уровень
-                </div>
-              </div>
-            </div>
-          </div>
           <div className='contacts-block'>
             <p className='contacts-title'>
               КОНТАКТЫ
