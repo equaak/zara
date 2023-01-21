@@ -206,7 +206,7 @@ const Main = () => {
               </div>
             </div>
           </div>
-          <div className='modules-block'>
+          {/* <div className='modules-block'>
             <p className='modules-title'>
               КУРС Я - BUYER 2.0
             </p>
@@ -415,7 +415,7 @@ const Main = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
           <div className='partners-block'>
             <p className='partners-title'>
               МОИ ПАРТНЕРЫ
