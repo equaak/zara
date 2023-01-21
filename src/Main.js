@@ -320,7 +320,7 @@ const Main = () => {
 
           <div className='who-block'>
             <p className='who-title'>
-              ДЛЯ КОГО ЭТО <br></br>ОБУЧЕНИЕ?
+              ДАННОЕ ОБУЧЕНИЕ ДЛЯ ТЕХ КТО
             </p>
 
             <div className='who-content'>
