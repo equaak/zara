@@ -25,6 +25,7 @@ import Plane from './plane.png'
 import Shop from './shop.png'
 import Smile from './smile.png'
 import World from './world.png'
+import Person from './person.png'
 const Main = () => {
 
   const [playing, setPlaying] = useState(true)
@@ -370,6 +371,14 @@ const Main = () => {
                   </div>
                   <div className='who-info'>
                     желает торговать на крупнейших маркетплейсах мира
+                  </div>
+                </div>
+                <div className='who-part'>
+                  <div className='who-header'>
+                    <img src={Person} alt=''/>
+                  </div>
+                  <div className='who-info'>
+                    повысить продажи и сделать их системными
                   </div>
                 </div>
               </div>
