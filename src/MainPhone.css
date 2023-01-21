@@ -510,4 +510,183 @@
   .map-block img{
     width: 80vw;
   }
+
+
+  .modules-title{
+    font-size: 21px;
+    text-align: center;
+    font-weight: 600;
+    padding-top: 20px;
+  }
+
+  .modules-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .modules-part{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 80vw;
+    font-size: 16px;
+    font-weight: 600;
+    border: 2px solid black;
+    padding: 20px 10px;
+    border-radius: 10px;
+    margin-top: 5vh;
+  }
+
+  .modules-part:nth-child(odd){
+    background-color: #86BAF7;
+  }
+
+
+  .course-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+  }
+
+  .info-part{
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .info-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: #133D6E;
+    background: linear-gradient(90deg, #ACD2FB 0%, #7CB1E8 100%);
+    border-radius: 20px;
+    padding: 20px 30px;
+    position: relative;
+    top: 5vh;
+    width: 50vw;
+    text-align: center;
+  }
+
+  .info-content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    background: linear-gradient(180deg, #256BBD 0%, #103765 100%);
+    border-radius: 30px;
+    padding: 50px 20px;
+  }
+
+  .buy-button{
+    padding: 20px 30px;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: #ACD2FB;
+    color: white;
+    font-size: 35px;
+    border-width: 0;
+    border-radius: 20px;
+  }
+
+  .who-block{
+    background-color: #83B6EB;
+    padding: 50px 0;
+  }
+
+  .who-title{
+    font-size: 30px;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  .who-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .who-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80vw;
+    margin-top: 5vh;
+  }
+
+  .who-part{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30vw;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    height: 45vh;
+  }
+
+  .who-info{
+    margin-top: 2vh;
+  }
+
+  .who-header{
+    display: flex;
+    width: 20vw;
+    height: 20vw;
+    background-color: #144175;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+  }
+
+  .who-header img{
+    width: 15vw;
+    height: 15vw;
+  }
+
+  .after-title{
+    text-align: center;
+    font-weight: 600;
+    font-size: 30px;
+    color: #144175;
+  }
+
+  .after-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+  .after-row{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5vh;
+    width: 100%;
+  }
+
+  .after-part{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    color: white;
+    background: linear-gradient(180deg, #83B6EB 0%, #5591CF 100%);
+    width: 30vw;
+    padding: 20px 30px;
+    text-align: center;
+    border-radius: 20px;
+  }
+
+
+  .last-row{
+    justify-content: center;
+  }
 }
