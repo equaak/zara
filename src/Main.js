@@ -24,6 +24,7 @@ import Like from './like.png'
 import Plane from './plane.png'
 import Shop from './shop.png'
 import Smile from './smile.png'
+import World from './world.png'
 const Main = () => {
 
   const [playing, setPlaying] = useState(true)
@@ -204,6 +205,40 @@ const Main = () => {
               </div>
             </div>
           </div>
+          <div className='modules-block'>
+            <p className='modules-title'>
+              КУРС Я - BUYER 2.0
+            </p>
+            <div className='modules-container'>
+              <div className='modules-part'>
+                1. Психология успешных продаж
+              </div>
+              <div className='modules-part'>
+                2. Бизнес процессы байера с 0
+              </div>
+              <div className='modules-part'>
+                3. США, Италия, Франция
+              </div>
+              <div className='modules-part'>
+                4. Программы отслеживания скидок
+              </div>
+              <div className='modules-part'>
+                5. Программа rewards и лоялити для покупателей
+              </div>
+              <div className='modules-part'>
+                6. База поставщиков и логистов
+              </div>
+              <div className='modules-part'>
+                7. Продажи на крупнейших маркетплейсах США. EBay, Amazon, Etsy и Poshmark, Mercary
+              </div>
+              <div className='modules-part'>
+                8. Блок со стилистом и производителем крупного концерна косметики Галина Тодд
+              </div>
+              <div className='modules-part'>
+                9. Блок с лучшим продавцом сакс США, секреты продаж и распродаж ( сезоны и бренды)
+              </div>
+            </div>
+          </div>
           <div className='course-info'>
             <p className='review-title'>
               ТАРИФЫ:
@@ -282,40 +317,7 @@ const Main = () => {
               </div>
             </div>
           </div>
-          <div className='modules-block'>
-            <p className='modules-title'>
-              КУРС Я - BUYER 2.0
-            </p>
-            <div className='modules-container'>
-              <div className='modules-part'>
-                1. Психология успешных продаж
-              </div>
-              <div className='modules-part'>
-                2. Бизнес процессы байера с 0
-              </div>
-              <div className='modules-part'>
-                3. США, Италия, Франция
-              </div>
-              <div className='modules-part'>
-                4. Программы отслеживания скидок
-              </div>
-              <div className='modules-part'>
-                5. Программа rewards и лоялити для покупателей
-              </div>
-              <div className='modules-part'>
-                6. База поставщиков и логистов
-              </div>
-              <div className='modules-part'>
-                7. Продажи на крупнейших маркетплейсах США. EBay, Amazon, Etsy и Poshmark, Mercary
-              </div>
-              <div className='modules-part'>
-                8. Блок со стилистом и производителем крупного концерна косметики Галина Тодд
-              </div>
-              <div className='modules-part'>
-                9. Блок с лучшим продавцом сакс США, секреты продаж и распродаж ( сезоны и бренды)
-              </div>
-            </div>
-          </div>
+
           <div className='who-block'>
             <p className='who-title'>
               ДЛЯ КОГО ЭТО <br></br>ОБУЧЕНИЕ?
@@ -358,6 +360,16 @@ const Main = () => {
                   </div>
                   <div className='who-info'>
                     стремится расширить горизонты для себя, своей семьи и детей
+                  </div>
+                </div>
+              </div>
+              <div className='who-row'>
+                <div className='who-part'>
+                  <div className='who-header'>
+                    <img src={World} alt=''/>
+                  </div>
+                  <div className='who-info'>
+                    желает торговать на крупнейших маркетплейсах мира
                   </div>
                 </div>
               </div>
