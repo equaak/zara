@@ -585,6 +585,20 @@ a{
     border-radius: 20px;
   }
 
+  @keyframes button-anim {
+    from {
+      background-color: #ACD2FB;
+    }
+    to {
+      background-color: #144175;
+    }
+  }
+
+  .buy-button:hover{
+    animation: button-anim 0.5s ease-in-out;
+    background-color: #144175;
+  }
+
   .who-block{
     background-color: #83B6EB;
     padding: 50px 0;
@@ -638,7 +652,6 @@ a{
 
   .who-header img{
     width: 5vw;
-    height: 5vw;
   }
 
   .after-title{
