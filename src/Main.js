@@ -20,12 +20,12 @@ import Video3 from './video3.mp4'
 import Video4 from './course-video.mp4'
 import Heart from './heart.png'
 import map from './map.png'
-// import Like from './like.png'
-// import Plane from './plane.png'
-// import Shop from './shop.png'
-// import Smile from './smile.png'
-// import World from './world.png'
-// import Person from './person.png'
+import Like from './like.png'
+import Plane from './plane.png'
+import Shop from './shop.png'
+import Smile from './smile.png'
+import World from './world.png'
+import Person from './person.png'
 const Main = () => {
 
   const [playing, setPlaying] = useState(true)
@@ -206,7 +206,7 @@ const Main = () => {
               </div>
             </div>
           </div>
-          {/* <div className='modules-block'>
+          <div className='modules-block'>
             <p className='modules-title'>
               КУРС Я - BUYER 2.0
             </p>
@@ -415,7 +415,7 @@ const Main = () => {
                 </div>
               </div>
             </div>
-          </div> */}
+          </div>
           <div className='partners-block'>
             <p className='partners-title'>
               МОИ ПАРТНЕРЫ
