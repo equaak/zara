@@ -209,6 +209,8 @@ const Main = () => {
           <div className='modules-block'>
             <p className='modules-title'>
               КУРС Я - BUYER 2.0
+              <br></br>
+              СТАРТ ОБУЧЕНИЯ - 16 ФЕВРАЛЯ
             </p>
             <div className='modules-container'>
               <div className='modules-part'>
