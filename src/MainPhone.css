@@ -689,4 +689,10 @@
   .last-row{
     justify-content: center;
   }
+
+  .modules-subtitle{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+  }
 }
