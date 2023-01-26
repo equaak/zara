@@ -208,7 +208,7 @@ const Main = () => {
           </div>
           <div className='modules-block'>
             <p className='modules-title'>
-              КУРС Я - BUYER 2.0
+            Бизнес в Америке с 0
               <br></br>
             </p>
             <p className='modules-subtitle'>
