@@ -209,6 +209,7 @@ const Main = () => {
           <div className='modules-block'>
             <p className='modules-title'>
               online course
+              <br></br>
               УДАЛЁННЫЙ БИЗНЕС В АМЕРИКЕ С 0
               <br></br>
             </p>
