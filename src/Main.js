@@ -210,7 +210,9 @@ const Main = () => {
             <p className='modules-title'>
               online course
               <br></br>
-              УДАЛЁННЫЙ БИЗНЕС В АМЕРИКЕ С 0
+              УДАЛЁННЫЙ БИЗНЕС
+              <br></br>
+              В АМЕРИКЕ С 0
               <br></br>
             </p>
             <p className='modules-subtitle'>
