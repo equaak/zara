@@ -215,9 +215,11 @@ const Main = () => {
               <br></br>
               <br></br>
               В АМЕРИКЕ С 0
-              <br></br>
+
             </p>
             <p className='modules-subtitle'>
+              <br></br>
+              <br></br>
               СТАРТ ОБУЧЕНИЯ - 16 ФЕВРАЛЯ
             </p>
             <div className='modules-container'>
