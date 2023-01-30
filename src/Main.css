@@ -760,6 +760,13 @@ a{
   .videos-row video{
     width: 20vw;
   }
+
+  .party-title{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 5vh;
+  }
 }
 
 button{

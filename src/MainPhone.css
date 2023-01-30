@@ -757,4 +757,11 @@
     margin-top: 10vh;
     width: 50vw;
   }
+
+  .party-title{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 2vh;
+  }
 }

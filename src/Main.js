@@ -655,6 +655,9 @@ const Main = () => {
           </div>
           <div className='party-block'>
             <img src={ForumLogo} className='party-logo' alt=''/>
+            <p className='party-title'>
+              15.03.2023
+            </p>
             <div className='videos-row'>
               <video controls src={ForumBeg}></video>
             </div>
