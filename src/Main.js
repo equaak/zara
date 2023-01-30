@@ -724,9 +724,9 @@ const Main = () => {
             <div className='credits'>
               <p className='credits-text'>Developed by Dias Muratbek</p>
               <button className='credits-button'><a href='https://instagram.com/_dias_muratbek'><p>@_dias_muratbek</p></a></button>
+              <p className='credits-text'>Illustrations by Yasmina Dadayeva</p>
               <p className='credits-text'>Designed by Damina Muratbek</p>
-              <button className='credits-button'><a href='https://instagram.com/'><p>@_dias_muratbek</p></a></button>
-              <p className='credits-text'>Illustations by Yasmina Dadaeva</p>
+              <button className='credits-button'><a href='https://instagram.com/amiiidmx'><p>@amiiidmx</p></a></button>
             </div>
           </div>
       </div>
