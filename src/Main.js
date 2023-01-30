@@ -722,9 +722,11 @@ const Main = () => {
               </a>
             </div>
             <div className='credits'>
-              <p className='credits-text'>Developed by Dias Muratbek, создан Диасом Муратбек</p>
-              <button className='credits-button'><a href='https://instagram.com/_dias_muratbek'><p>Instagram - @_dias_muratbek</p></a></button>
-              <p className='credits-text'>Designed by Damina Muratbek, дизайн создан Даминой Муратбек</p>
+              <p className='credits-text'>Developed by Dias Muratbek</p>
+              <button className='credits-button'><a href='https://instagram.com/_dias_muratbek'><p>@_dias_muratbek</p></a></button>
+              <p className='credits-text'>Designed by Damina Muratbek</p>
+              <button className='credits-button'><a href='https://instagram.com/'><p>@_dias_muratbek</p></a></button>
+              <p className='credits-text'>Illustations by Yasmina Dadaeva</p>
             </div>
           </div>
       </div>
