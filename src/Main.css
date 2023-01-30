@@ -727,7 +727,7 @@ a{
   }
 
   .credits-button{
-    width: fit-content;
+    width: 10vh;
     display: flex;
     align-items: center;
     justify-content: center;
