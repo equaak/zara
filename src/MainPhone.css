@@ -695,4 +695,42 @@
     font-size: 12px;
     font-weight: 600;
   }
+
+  .after-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10vh;
+  }
+
+  .link-to{
+    background-color: transparent;
+    padding:40px 20px;
+    font-size: 15px;
+    border-radius: 10px;
+    font-weight: 600;
+  }
+
+  .credits{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px;
+  }
+
+  .credits-text{
+    font-size: 15px;
+    margin-top: 5vh;
+  }
+
+  .credits-button{
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    padding: 20px 40px;
+    margin-top: 5vh;
+    border-radius: 10px;
+    background-color: transparent;
+  }
 }

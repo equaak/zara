@@ -699,6 +699,44 @@ a{
     font-size: 30px;
     font-weight: 600;
   }
+
+
+  .after-footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+  }
+
+  .link-to{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 60px 40px;
+    border-radius: 20px;
+    background-color: transparent;
+  }
+
+  .credits{
+    display: flex;
+    flex-direction: column;
+    padding: 100px 50px;
+  }
+
+  .credits-text{
+    font-size: 20px;
+    margin-top: 5vh;
+  }
+
+  .credits-button{
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    padding: 20px 40px;
+    margin-top: 5vh;
+    border-radius: 10px;
+    background-color: transparent;
+  }
 }
 
 button{

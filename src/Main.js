@@ -213,7 +213,7 @@ const Main = () => {
               <br></br>
               УДАЛЁННЫЙ БИЗНЕС
               <br></br>
-              В АМЕРИКЕ С 0
+              В АМЕРИКЕ С НУЛЯ
 
             </p>
             <p className='modules-subtitle'>
@@ -226,7 +226,7 @@ const Main = () => {
                 1. Психология успешных продаж
               </div>
               <div className='modules-part'>
-                2. Бизнес процессы байера с 0
+                2. Бизнес процессы байера с нуля
               </div>
               <div className='modules-part'>
                 3. США, Италия, Франция
@@ -259,7 +259,7 @@ const Main = () => {
             <div className='info-con'>
               <div className='info-part'>
                 <div className='info-header'>
-                  Я-BUYER VIP
+                  VIP
                 </div>
                 <div className='info-content'>
                   999000 тг
@@ -290,7 +290,7 @@ const Main = () => {
                   <br></br>
                   <br></br>
                   Группа с прямыми поставками из аутлетов США
-                  <a href='https://api.whatsapp.com/send?phone=+77010130981'>
+                  <a href='https://wa.me/+77010130981' rel="noreferrer" target='_blank'>
                     <button className='buy-button'>
                       ХОЧУ 😍
                     </button>
@@ -299,7 +299,7 @@ const Main = () => {
               </div>
               <div className='info-part'>
                 <div className='info-header'>
-                  Я-BUYER PREMIUM
+                  PREMIUM
                 </div>
                 <div className='info-content'>
                   569000 тг
@@ -323,7 +323,7 @@ const Main = () => {
                   Вебинар ответы на вопросы
                   <br></br>
                   <br></br>
-                  <a href='https://api.whatsapp.com/send?phone=+77010130981'>
+                  <a href='https://wa.me/+77010130981' rel="noreferrer" target='_blank'>
                     <button className='buy-button'>
                       ХОЧУ 😍
                     </button>
@@ -409,7 +409,7 @@ const Main = () => {
                   Самую полную систему бизнеса байера от А до Я и методику построения продаж на миллионы
                 </div>
                 <div className='after-part'>
-                  Получите выход на один из крупнейших рынков мира с потребительским потенциалом 350 млн человек, где спрос превышает предложение
+                  Выход на один из крупнейших рынков мира с потребительским потенциалом 350 млн человек, где спрос превышает предложение
                 </div>
               </div>
               <div className='after-row'>
@@ -433,12 +433,19 @@ const Main = () => {
               </div>
               <div className='after-row'>
                 <div className='after-part'>
-                  Вы научитесь зарабатывать на Etsy, Amazon, EBay
+                  Возможности заработка на Etsy, Amazon, EBay, Poshmark, Mercary
                 </div>
                 <div className='after-part'>
-                  Удалено вести бизнес на территории США
+                  Возможности удаленно вести бизнес на территории США
                 </div>
               </div>
+            </div>
+            <div className='after-footer'>
+              <a href='https://wa.me/+77010130981' rel="noreferrer" target='_blank'>
+                <button className='link-to'>
+                  Связаться с менеджером
+                </button>
+              </a>
             </div>
           </div>
           <div className='partners-block'>
@@ -713,6 +720,11 @@ const Main = () => {
                   </div>
                 </div>
               </a>
+            </div>
+            <div className='credits'>
+              <p className='credits-text'>Developed by Dias Muratbek, создан Диасом Муратбек</p>
+              <button className='credits-button'><a href='https://instagram.com/_dias_muratbek'><p>Instagram - @_dias_muratbek</p></a></button>
+              <p className='credits-text'>Designed by Damina Muratbek, дизайн создан Даминой Муратбек</p>
             </div>
           </div>
       </div>
