@@ -654,7 +654,7 @@ const Main = () => {
             </div>
           </div>
           <div className='party-block'>
-            <img src={ForumLogo} className='party-logo'/>
+            <img src={ForumLogo} className='party-logo' alt=''/>
             <div className='videos-row'>
               <video controls src={ForumBeg}></video>
             </div>
