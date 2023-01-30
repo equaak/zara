@@ -453,19 +453,7 @@ const Main = () => {
               </a>
             </div>
           </div>
-          <div className='party-block'>
-            <img src={ForumLogo} className='party-logo'/>
-            <div className='videos-row'>
-              <video controls src={ForumBeg}></video>
-            </div>
-            <div className='videos-row'>
-              <video controls src={Forum}></video>
-              <video controls src={Forum1}></video>
-            </div>
-            <div className='videos-row'>
-              <video controls src={ForumEnd}></video>
-            </div>
-          </div>
+
           <div className='partners-block'>
             <p className='partners-title'>
               МОИ ПАРТНЕРЫ
@@ -663,6 +651,19 @@ const Main = () => {
             <div className='video-container'>
               <video preload="metadata" controls className='partner-video' src={Video3} onPlay={(e) => {handlePlay(e)}} type='video/mp4'>
               </video>
+            </div>
+          </div>
+          <div className='party-block'>
+            <img src={ForumLogo} className='party-logo'/>
+            <div className='videos-row'>
+              <video controls src={ForumBeg}></video>
+            </div>
+            <div className='videos-row'>
+              <video controls src={Forum}></video>
+              <video controls src={Forum1}></video>
+            </div>
+            <div className='videos-row'>
+              <video controls src={ForumEnd}></video>
             </div>
           </div>
           <div className='about-block'>
