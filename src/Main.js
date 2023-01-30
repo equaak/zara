@@ -26,6 +26,11 @@ import Shop from './shop.png'
 import Smile from './smile.png'
 import World from './world.png'
 import Person from './person.png'
+import Forum from './forum.MP4'
+import Forum1 from './forum1.MP4'
+import ForumBeg from './forum_begin.MP4'
+import ForumEnd from './forum_end.MP4'
+import ForumLogo from './forum-logo.png'
 const Main = () => {
 
   const [playing, setPlaying] = useState(true)
@@ -446,6 +451,19 @@ const Main = () => {
                   Связаться с менеджером
                 </button>
               </a>
+            </div>
+          </div>
+          <div className='party-block'>
+            <img src={ForumLogo} className='party-logo'/>
+            <div className='videos-row'>
+              <video controls src={ForumBeg}></video>
+            </div>
+            <div className='videos-row'>
+              <video controls src={Forum}></video>
+              <video controls src={Forum1}></video>
+            </div>
+            <div className='videos-row'>
+              <video controls src={ForumEnd}></video>
             </div>
           </div>
           <div className='partners-block'>
