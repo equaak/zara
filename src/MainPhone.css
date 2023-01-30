@@ -709,6 +709,7 @@
     font-size: 15px;
     border-radius: 10px;
     font-weight: 600;
+    border: solid 2px black;
   }
 
   .credits{
@@ -732,5 +733,6 @@
     margin-top: 5vh;
     border-radius: 10px;
     background-color: transparent;
+    border: solid 2px black;
   }
 }
