@@ -720,11 +720,11 @@
 
   .credits-text{
     font-size: 15px;
-    margin-top: 5vh;
+    margin-top: 1vh;
   }
 
   .credits-button{
-    width: 30vh;
+    width: 30vw;
     display: flex;
     align-items: center;
     justify-content: center;
