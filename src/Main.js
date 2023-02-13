@@ -337,13 +337,13 @@ const Main = () => {
               </div>
               <div className='info-part'>
                 <div className='info-header'>
-                  Программа курса по байерству, не включая Модуль 7 (Маркетплейсы)
+                  LITE
                 </div>
                 <div className='info-content'>
                   399000 тг
                   <br></br>
                   <br></br>
-                  Полная программа
+                  Программа курса по байерству, не включая Модуль 7 (Маркетплейсы)
                   <br></br>
                   <br></br>
                   Доступ к урокам 2 месяца
