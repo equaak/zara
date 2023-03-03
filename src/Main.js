@@ -495,7 +495,7 @@ const Main = () => {
 
             <div className='partners-list'>
               <div className='partners-row'>
-                <a href='https://www.instagram.com/shoppingwithproffi.kz/' target='_blank' rel="noreferrer">
+                <a href='https://www.instagram.com/brand.hunter.mika/' target='_blank' rel="noreferrer">
                   <div className='partner-container'>
                     <div className='partner-con'>
                       <div className='partner-border'>
@@ -503,7 +503,7 @@ const Main = () => {
                       </div>
                     </div>
                     <div className='partner'>
-                      @shoppingwithproffi.kz
+                      @brand.hunter.mika
                     </div>
                   </div>
                 </a>
@@ -533,7 +533,7 @@ const Main = () => {
                 </a>
               </div>
               <div className='partners-row'>
-                <a href='https://www.instagram.com/shoppingwith_profi.kg.tr/' target='_blank' rel="noreferrer">
+                <a href='https://www.instagram.com/din_buyer/' target='_blank' rel="noreferrer">
                   <div className='partner-container'>
                     <div className='partner-con'>
                       <div className='partner-border'>
@@ -541,7 +541,7 @@ const Main = () => {
                       </div>
                     </div>
                     <div className='partner'>
-                      @shoppingwith_profi.kg.tr
+                      @din_buyer
                     </div>
                   </div>
                 </a>
@@ -557,9 +557,21 @@ const Main = () => {
                     </div>
                   </div>
                 </a>
+                <a href='https://www.instagram.com/shoppingwithprofi_gul' target='_blank' rel="noreferrer">
+                  <div className='partner-container'>
+                    <div className='partner-con'>
+                      <div className='partner-border'>
+                          <img src={Instagram} className='partner-img' alt=''></img>
+                      </div>
+                    </div>
+                    <div className='partner fromtop'>
+                      @shoppingwithprofi_gul
+                    </div>
+                  </div>
+                </a>
               </div>
               <div className='partners-row'>
-                <a href='https://www.instagram.com/shoppingwithprofi_almaty/' target='_blank' rel="noreferrer">
+                <a href='https://www.instagram.com/shoppingwithprofi_almaty_/' target='_blank' rel="noreferrer">
                   <div className='partner-container'>
                     <div className='partner-con'>
                       <div className='partner-border'>
@@ -567,7 +579,7 @@ const Main = () => {
                       </div>
                     </div>
                     <div className='partner'>
-                      @shoppingwithprofi_almaty
+                      @shoppingwithprofi_almaty_
                     </div>
                   </div>
                 </a>
@@ -598,7 +610,7 @@ const Main = () => {
               </div>
               <div className='partners-row'>
 
-                <a href='https://instagram.com/shoppingpro_centralasia/' target='_blank' rel="noreferrer">
+                <a href='https://instagram.com/swp_centralasia/' target='_blank' rel="noreferrer">
                   <div className='partner-container'>
                     <div className='partner-con'>
                       <div className='partner-border'>
@@ -606,7 +618,7 @@ const Main = () => {
                       </div>
                     </div>
                     <div className='partner fromtop'>
-                    @shoppingpro_centralasia
+                    @swp_centralasia
                     </div>
                   </div>
                 </a>
@@ -636,7 +648,7 @@ const Main = () => {
                 </a>
               </div>
               <div className='partners-row'>
-                <a href='https://instagram.com/shoppingwithproffi_astana/' target='_blank' rel="noreferrer">
+                <a href='https://instagram.com/happy_buyer_kaz/' target='_blank' rel="noreferrer">
                   <div className='partner-container'>
                     <div className='partner-con'>
                       <div className='partner-border'>
@@ -644,7 +656,7 @@ const Main = () => {
                       </div>
                     </div>
                     <div className='partner fromtop'>
-                      @shoppingwithproffi_astana
+                      @happy_buyer_kaz
                     </div>
                   </div>
                 </a>
