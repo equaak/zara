@@ -704,14 +704,14 @@ const Main = () => {
               15.01.2023
             </p>
             <div className='videos-row'>
-              <video controls src={ForumBeg}></video>
+              <video controls src={ForumEnd}></video>
             </div>
             <div className='videos-row'>
               <video controls src={Forum}></video>
               <video controls src={Forum1}></video>
             </div>
             <div className='videos-row'>
-              <video controls src={ForumEnd}></video>
+              <video controls src={ForumBeg}></video>
             </div>
           </div>
           <div className='about-block'>
